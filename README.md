@@ -1,4 +1,5 @@
-<center><img src="https://i.imgur.com/HJnpvwQ.png" width="200" height="48"/> EFI</center>
+<p></p>
+<p align="center"><img src="https://i.imgur.com/HJnpvwQ.png" width="200" height="48"/> EFI</p>
 <h2></h2>
 <p>I built this EFI for myself and it does not guarantee 100% work with your hardware.</p>
 
