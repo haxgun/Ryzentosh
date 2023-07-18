@@ -1,13 +1,10 @@
 <p></p>
 <p align="center"><img src="https://i.imgur.com/HJnpvwQ.png" width="200" height="48"/> EFI</p>
 <h2></h2>
-<p>I built this EFI for myself and it does not guarantee 100% work with your hardware.</p>
-
-<p>❗️ Please note that for iCloud services to work correctly, you will need to reset SMBIOS.</p>
-
-<p>❗️❗️ The MLB, ROM,System Serial Number, SystemUUID sections are specifically left empty.</p>
-
-<p>❓ If you use iGPU, I recommend configuring <u>iMac20,1</u> for correct operation.</p>
+<p align="center">I built this EFI for myself and it does not guarantee 100% work with your hardware.<br/>
+❗️ Please note that for iCloud services to work correctly, you will need to reset SMBIOS.<br/>
+❗️❗️ The MLB, ROM,System Serial Number, SystemUUID sections are specifically left empty.<br/>
+❓ If you use iGPU, I recommend configuring <u>iMac20,1</u> for correct operation.</p>
 
 <br/>
 
