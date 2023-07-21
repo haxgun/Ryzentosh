@@ -285,6 +285,8 @@
 			<dict>
 				<key>shikigva</key>
 				<integer>128</integer>
+				<key>unfairgva</key>
+				<integer>7</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1793,6 +1795,10 @@
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
+				<key>revcpu</key>
+				<integer>1</integer>
+				<key>revcpuname</key>
+				<string>AMD Ryzen 5 5600G</string>
 				<key>rtc-blacklist</key>
 				<data>
 				</data>
@@ -1828,6 +1834,8 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
+				<string>revcpu</string>
+				<string>revcpuname</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -1879,11 +1887,11 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>PUT U BOARD NUMBER</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1537</integer>
 			<key>ROM</key>
 			<data>
 			</data>
@@ -1894,9 +1902,71 @@
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>PUT U SERIAL NUMBER</string>
 			<key>SystemUUID</key>
+			<string>PUT U UUID</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>03/04/2023</string>
+			<key>BIOSVendor</key>
 			<string></string>
+			<key>BIOSVersion</key>
+			<string>1968.100.17.0.0</string>
+			<key>BoardAssetTag</key>
+			<string>Base Board Asset Tag</string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-CFF7D910A743CAAF</string>
+			<key>BoardSerialNumber</key>
+			<string>PUT U BOARD NUMBER</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>iMac20,1</string>
+			<key>ChassisAssetTag</key>
+			<string>Asset Tag#</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>PUT U SERIAL NUMBER</string>
+			<key>ChassisType</key>
+			<integer>13</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-CFF7D910A743CAAF</string>
+			<key>FirmwareFeatures</key>
+			<data>
+			ZvCz/wgAAAA=
+			</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>
+			/////wgAAAA=
+			</data>
+			<key>PlatformFeature</key>
+			<integer>32</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SmcVersion</key>
+			<data>
+			</data>
+			<key>SystemFamily</key>
+			<string>iMac</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>iMac20,1</string>
+			<key>SystemSKUNumber</key>
+			<string>System SKU#</string>
+			<key>SystemSerialNumber</key>
+			<string>PUT U SERIAL NUMBER</string>
+			<key>SystemUUID</key>
+			<string>PUT U UUID</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
