@@ -1894,6 +1894,7 @@
 			<integer>1537</integer>
 			<key>ROM</key>
 			<data>
+			ANhhOVlk
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1904,7 +1905,7 @@
 			<key>SystemSerialNumber</key>
 			<string>PUT U SERIAL NUMBER</string>
 			<key>SystemUUID</key>
-			<string>PUT U UUID</string>
+			<string>PUT U UUID HERE</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1964,7 +1965,7 @@
 			<key>SystemSerialNumber</key>
 			<string>PUT U SERIAL NUMBER</string>
 			<key>SystemUUID</key>
-			<string>PUT U UUID</string>
+			<string>PUT U UUID HERE</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
