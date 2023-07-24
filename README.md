@@ -26,8 +26,6 @@
 > Please note that for iCloud services to work correctly, you will need to reset SMBIOS.<br/>
 > MLB, ROM,System Serial Number, SystemUUID sections are specifically left empty. If you are using an iGPU, I recommend using an <u>iMac20,1</u> so that there are no problems with the black screen.
 
-<br/>
-
 <h2 align="center">📺 Build</h2>
 
 | **Component** | **Model**                                                                                   |
@@ -40,8 +38,6 @@
 | Other disk | NVME Apacer AS2280P4 256GB + WD Blue 1 TB                                                   |
 | macOS | Ventura 13.4.1 (22F770820d), Sonoma 14 beta 3 (23A5286i)                                    |
 | OpenCore | 0.9.3 Release                                                                               |
-
-<br/>
 
 <h2 align="center">🔧 BIOS</h2>
 
@@ -57,9 +53,6 @@
 | Boot Mode                      | UEFI                                              |
 | Secure Boot and TPM            | Disabled                                          |
 
-
-<br/>
-
 <h2 align="center">🩼 Functional</h2>
 
 - [x] macOS Ventura thanks to [dortania](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -70,8 +63,6 @@
 - [x] iCloud
 - [ ] iMessage / FaceTime / Airdrop / Handoff (crashes are observed)
 - [ ] There are small graphical artifacts when working with browsers on the Chromium engine. The developer of NootedRed is aware of the problem. A crutch is built into the config, which reduces the number of graphic artifacts
-
-<br/>
 
 <h2 align="center">🪚 Change it for youself</h2>
 
@@ -110,7 +101,6 @@ BA 06 00000000
 BA 06 00000090
 BA 06 000000
 ```
-<br/>
 
 <h2 align="center">🧱 Scripts</h2>
 
@@ -122,8 +112,6 @@ BA 06 000000
 1. **hostname.sh** - change the name of your computer's name or local hostname on Mac
 2. **clear-network-interfaces.sh** - helps to solve problems with en0 ethernet
 
-<br/>
-
 <h2 align="center">💡 Tip</h2>
 
  1. If you want to change the processor name, use [this](https://github.com/corpnewt/CPU-Name)
@@ -131,8 +119,6 @@ BA 06 000000
 
 > **Note** \
 > This way you will spend less time solving problems and everything will work fine. 🫡
-
-<br/>
 
 <h2 align="center">🏞️ Screenshot</h2>
 <img src="https://i.imgur.com/qBf9Km2.png" alt="macOS Ventura">
