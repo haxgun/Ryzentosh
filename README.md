@@ -1,12 +1,28 @@
 <p></p>
 <p align="center"><img src="https://i.imgur.com/HJnpvwQ.png" width="200" height="48"/> EFI</p>
-[![MacOS version](https://img.shields.io/badge/Ventura-13.4.1-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Sonoma-14.0%20beta3-informational.svg)](https://www.apple.com/macos) \
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg)\
-[![GitHub](https://img.shields.io/github/license/MAGICXcmd/Ryzentosh?style=flat-square)](https://github.com/MAGICXcmd/Ryzentosh/blob/main/LICENSE)
-<h2></h2>
-<p align="center">I built this EFI for myself and it does not guarantee 100% work with your hardware.</p>
+<p align="center">
+ <a href="https://www.apple.com/macos">
+  <img src="https://img.shields.io/badge/Ventura-13.4.1-informational.svg">
+ </a>
+ <a href="https://www.apple.com/macos">
+  <img src="https://img.shields.io/badge/Sonoma-14.0%20beta3-informational.svg">
+ </a>
+ <a href="https://www.apple.com/macos">
+  <img src="https://img.shields.io/badge/Sonoma-14.0%20beta3-informational.svg">
+ </a>
+ <a href="https://github.com/acidanthera/OpenCorePkg">
+  <img src="https://img.shields.io/badge/OpenCore-0.9.3-informational.svg">
+ </a>
+ <a href="https://github.com/MAGICXcmd/Ryzentosh/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/MAGICXcmd/Ryzentosh?style=flat-square">
+ </a>
+</p>
 
-> **Note**
+<h2></h2>
+
+> I built this EFI for myself and it does not guarantee 100% work with your hardware.
+
+> **Note** \
 > Please note that for iCloud services to work correctly, you will need to reset SMBIOS.<br/>
 > MLB, ROM,System Serial Number, SystemUUID sections are specifically left empty. If you are using an iGPU, I recommend using an <u>iMac20,1</u> so that there are no problems with the black screen.
 
@@ -97,8 +113,10 @@ BA 06 000000
 <br/>
 
 <h2 align="center">🧱 Scripts</h2>
-You can also use scripts.
-> **Warning**
+
+> You can also use scripts.
+
+> **Warning** \
 > All scripts must be used with elevated rights! To do this, use
 > ```sudo bash <name_script>.sh```
 1. **hostname.sh** - change the name of your computer's name or local hostname on Mac
@@ -107,10 +125,11 @@ You can also use scripts.
 <br/>
 
 <h2 align="center">💡 Tip</h2>
-1. If you want to change the processor name, use [this](https://github.com/corpnewt/CPU-Name)
-2. If you have a 1-in-1 CPU and motherboard configuration like mine, you can use this config. If it is different, I advise you to assemble it yourself according to [the guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
-> **Note**
+ 1. If you want to change the processor name, use [this](https://github.com/corpnewt/CPU-Name)
+ 2. If you have a 1-in-1 CPU and motherboard configuration like mine, you can use this config. If it is different, I advise you to assemble it yourself according to [the guide](https://dortania.github.io/OpenCore-Install-Guide/)
+
+> **Note** \
 > This way you will spend less time solving problems and everything will work fine. 🫡
 
 <br/>
