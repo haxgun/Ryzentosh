@@ -25,16 +25,16 @@
 
 <h2 align="center">📺 Build</h2>
 
-| **Component** | **Model**                                                                                   |
-| ------------- |---------------------------------------------------------------------------------------------|
-| CPU | AMD Ryzen 5 5600G @ 4.2GHz                                                                  |
-| Motherboard | MSI B450M PRO-VDH PLUS - BIOS Version 7A38v9E                                               |
-| GPU | <s>Palit GeForce GTX 1660 Dual</s>, but in Hackintosh <u>I use embedded graphics</u> (iGPU) |
-| RAM | ADATA XPG GAMMIX D20 2 x 8GB @ 3200 MHz                                                     |
-| OS disk | Team Group GX2 256GB                                                                        |
-| Other disk | NVME Apacer AS2280P4 256GB + WD Blue 1 TB                                                   |
-| macOS | Ventura 13.4.1 (22F770820d), Sonoma 14 beta 3 (23A5286i)                                    |
-| OpenCore | 0.9.3 Release                                                                               |
+| **Component** | **Model**                                                          |
+| ------------- |--------------------------------------------------------------------|
+| CPU | AMD Ryzen 5 5600G @ 4.2GHz                                                   |
+| Motherboard | MSI B450M PRO-VDH PLUS - BIOS Version 7A38v9E                        |
+| GPU | <s>Palit GeForce GTX 1660 Dual</s>, but in Hackintosh I use iGPU             |
+| RAM | ADATA XPG GAMMIX D20 2 x 8GB @ 3200 MHz                                      |
+| OS disk | Team Group GX2 256GB                                                     |
+| Other disk | NVME Apacer AS2280P4 256GB + WD Blue 1 TB                             |
+| macOS | Ventura 13.5 (22G74), Sonoma 14 beta 3 (23A5286i)                          |
+| OpenCore | 0.9.3 Release                                                           |
 
 <h2 align="center">🔧 BIOS</h2>
 
@@ -46,15 +46,18 @@
 | Resizable BAR                  | Disabled                                          |
 | Integrated Graphics Controller | Auto                                              |
 | IOMMU                          | Disabled                                          |
-| Primary Video Adaptor (IGD)    | Int Graphics (IGD)                                |
-| Frame buffer Size              | *Minimum 512 mb, but I chose 4 gb because I can 🤓 |
+| Initiate Graphic Adapter       | Int Graphics (IGD)                                |
+| UMA Frame buffer Size          | *Minimum 512 mb, but I chose Game mode (2GB)      |
+| XHCI Hand-off                  | Enabled                                           |
 | Boot Mode                      | UEFI                                              |
 | Secure Boot and TPM            | Disabled                                          |
 
 > **Note** \
 >*There may be artifacts on some PCs/laptops if 512 MB of VRAM is set. To prevent this from happening, you need to set at least 1 GB of VRAM
 
-**[⚠️ More BIOS settings here...](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings)**
+**🏞️ More details of my settings can be found [here](https://imgur.com/a/Q2ssS6q)**
+
+**⚠️ You can read more about the BIOS settings in [the guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings)**
 
 <h2 align="center">🩼 Functional</h2>
 
