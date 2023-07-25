@@ -40,15 +40,21 @@
 
 | **Component**                  | **Model**                                         |
 |--------------------------------|---------------------------------------------------|
+| Fast boot                      | Disabled                                          |
 | SVM Mode                       | Enabled                                           |
 | Above 4G Decoding              | Disabled                                          |
 | Resizable BAR                  | Disabled                                          |
 | Integrated Graphics Controller | Auto                                              |
-| IOMMU                          | Enabled                                           |
+| IOMMU                          | Disabled                                          |
 | Primary Video Adaptor (IGD)    | Int Graphics (IGD)                                |
-| Frame buffer Size              | Minimum 512 mb, but I chose 4 gb because I can 🤓 |
+| Frame buffer Size              | *Minimum 512 mb, but I chose 4 gb because I can 🤓 |
 | Boot Mode                      | UEFI                                              |
 | Secure Boot and TPM            | Disabled                                          |
+
+> **Note** \
+>*There may be artifacts on some PCs/laptops if 512 MB of VRAM is set. To prevent this from happening, you need to set at least 1 GB of VRAM
+
+**[⚠️ More BIOS settings here...](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings)**
 
 <h2 align="center">🩼 Functional</h2>
 
@@ -65,7 +71,7 @@
 
 Edit the core count patch to match your CPU
 
-See [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla/tree/master) or [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html#amd-patches)
+See [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla/tree/master) or [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/extras/ventura.html#amd-patches)
 
 Find the three `algrey - Force cpuid_cores_per_package`
  
