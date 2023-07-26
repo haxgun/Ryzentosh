@@ -1213,13 +1213,13 @@
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
-                <integer>17</integer>
+                <integer>129</integer>
                 <key>PickerAudioAssist</key>
                 <false/>
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>blackosx\BsxM1</string>
+                <string>LuckyCrack\BigSur</string>
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
@@ -1356,7 +1356,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>debug=0x100 npci=0x3000 keepsyms=1 revcpu=1 alcid=1 revblock=media</string>
+                    <string>debug=0x100 npci=0x3000 keepsyms=1 revcpu=1 alcid=1 revblock=media -wegnoegpu</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
