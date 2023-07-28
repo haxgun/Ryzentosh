@@ -19,7 +19,8 @@
 
 > I built this EFI for myself and it does not guarantee 100% work with your hardware.
 
-> **Note** \
+> **Note**
+> 
 > Please note that for iCloud services to work correctly, you will need to reset SMBIOS.<br/>
 > MLB, ROM,System Serial Number, SystemUUID sections are specifically left empty. If you are using an iGPU, I recommend using an <u>iMac20,1</u> so that there are no problems with the black screen.
 
