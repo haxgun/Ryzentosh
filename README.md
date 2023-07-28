@@ -53,8 +53,9 @@
 | Boot Mode                      | UEFI                                              |
 | Secure Boot and TPM            | Disabled                                          |
 
-> **Note** \
->*There may be artifacts on some PCs/laptops if 512 MB of VRAM is set. To prevent this from happening, you need to set at least 1 GB of VRAM
+> **Note**
+> 
+> *There may be artifacts on some PCs/laptops if 512 MB of VRAM is set. To prevent this from happening, you need to set at least 1 GB of VRAM
 
 **🏞️ More details of my settings can be found [here](https://imgur.com/a/Q2ssS6q)**
 
@@ -113,7 +114,8 @@ BA 06 000000
 
 > You can also use scripts.
 
-> **Warning** \
+> **Warning**
+> 
 > All scripts must be used with elevated rights! To do this, use
 > ```sudo bash <name_script>.sh```
 1. **hostname.sh** - change the name of your computer's name or local hostname on Mac
@@ -124,7 +126,8 @@ BA 06 000000
  1. If you want to change the processor name, use [this](https://github.com/corpnewt/CPU-Name)
  2. If you have a 1-in-1 CPU and motherboard configuration like mine, you can use this config. If it is different, I advise you to assemble it yourself according to [the guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
-> **Note** \
+> **Note**
+> 
 > This way you will spend less time solving problems and everything will work fine. 🫡
 
 <h2 align="center">🏞️ Screenshot</h2>
