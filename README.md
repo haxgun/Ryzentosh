@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/OpenCore-0.9.3-informational.svg">
  </a>
  <a href="https://github.com/MAGICXcmd/Ryzentosh/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/MAGICXcmd/Ryzentosh?style=flat-square">
+  <img src="https://img.shields.io/github/license/MAGICXcmd/Ryzentosh">
  </a>
 </p>
 
