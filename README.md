@@ -58,7 +58,7 @@
 | Initiate Graphic Adapter       | Int Graphics (IGD)                           |
 | UMA Frame buffer Size          | Disabled*                                    |
 | XHCI Hand-off                  | Enabled                                      |
-| Boot Mode                      | UEFI                                         |
+| Boot Mode                      | CSM                                          |
 | Secure Boot and TPM            | Disabled                                     |
 
 > **Note**
@@ -74,7 +74,7 @@
 
 <h2 align="center">🩼 Functional</h2>
 
-- [x] macOS Ventura thanks to [dortania](https://dortania.github.io/OpenCore-Install-Guide/)
+- [x] macOS thanks to [dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 - [x] CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - [x] Audio by [AppleALC](https://github.com/acidanthera/AppleALC)
 - [x] Ethernet by RealtekRTL8111
