@@ -221,7 +221,7 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
+                <key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>built-in</key>
                     <data>AQ==</data>
