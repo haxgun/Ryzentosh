@@ -37,7 +37,7 @@
 | Win disk    | NVMe Apacer AS2280P4 256GB                                      |
 | Other disk  | WD Blue 1 TB                                                    |
 | macOS       | Ventura 13.5 (22G74), Sonoma 14 beta 3 (23A5286i)               |
-| OpenCore    | 0.9.3 Release                                                   |
+| OpenCore    | 0.9.4 Release                                                   |
 
 > **Note** \
 > Instead of dGPU, you can use iGPU in the processor thanks to NootedRed, but then you will have problems with DRM, iServices and sleep.
