@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Sonoma-14.0%20beta3-informational.svg">
  </a>
  <a href="https://github.com/acidanthera/OpenCorePkg">
-  <img src="https://img.shields.io/badge/OpenCore-0.9.3-informational.svg">
+  <img src="https://img.shields.io/badge/OpenCore-0.9.4-informational.svg">
  </a>
  <a href="https://github.com/MAGICXcmd/Ryzentosh/blob/main/LICENSE">
   <img src="https://img.shields.io/github/license/MAGICXcmd/Ryzentosh">
