@@ -134,6 +134,7 @@ See [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla/tree/master) o
 1. [Hackintool](https://github.com/benbaker76/Hackintool)
 2. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
 3. [CPU Name](https://github.com/corpnewt/CPU-Name)
+4. [About This Hack](https://github.com/0xCUB3/About-This-Hack)
 
 <h2 align="center">🧱 Scripts</h2>
 
